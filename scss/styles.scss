@@ -1,0 +1,12 @@
+$fontSizes: (
+  "size-20": 20px,
+  "size-23": 23px,
+  "size-35": 35px,
+  "size-50": 50px,
+);
+
+@each $name, $size in $fontSizes {
+    .#{$name} {
+      font-size: $size;
+    }
+  }
