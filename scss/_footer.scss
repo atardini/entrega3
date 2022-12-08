@@ -1,4 +1,6 @@
-$size-150px: 150px;
+$size-170px: 170px;
+
+
 
 @mixin footer-img($size) {
   height: $size;
@@ -6,5 +8,5 @@ $size-150px: 150px;
 }
 
 .footer-img {
-  @include footer-img($size-150px);
+  @include footer-img($size-170px);
 }
